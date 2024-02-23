@@ -1,3 +1,8 @@
+
+body {
+  background-color: #000;
+  color: rgb(156, 163, 175);
+}
 .centerAll {
   position: absolute;
   top: 50%;
@@ -8,11 +13,11 @@
 #mainBG {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #000;
 }
 
 #mainBG .wave {
@@ -73,6 +78,7 @@
 
 .title-deco {
   position: relative;
+  color: #fff;
 }
 
 .title-deco::after {
@@ -81,6 +87,11 @@
   width: 42px;
   height: 4px;
   background: #ee7785;
+  color: #fff;
   left: 0;
   bottom: 0px;
+}
+
+.title {
+  color: aliceblue;
 }

@@ -1,4 +1,4 @@
-{{ $data := .Site.Data.home }}
+{{ $data := .Data.home }}
 
 <section id="{{$data.bottom.id}}" class="mt-12">
     <div class="md:flex justify-center">
@@ -21,8 +21,8 @@
                 />
                 </a>
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">{{ .title }}</div>
-                    <p class="text-gray-700 text-base">
+                    <div class="font-bold text-xl text-white mb-2">{{ .title }}</div>
+                    <p class="text-gray-500 text-base">
                         {{ .text }}
                     </p>
                 </div>

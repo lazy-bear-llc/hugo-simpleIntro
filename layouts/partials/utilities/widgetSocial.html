@@ -1,12 +1,12 @@
-{{ $data := .Site.Data.home }}
+{{ $data := .Data.home }}
 
 <section id="{{$data.top.id}}" class="md:flex justify-around">
     <div class="my-auto md:mr-4">
         {{ partial "home/homeTitle" (dict "title" $data.top.mainTitle) }}
 
         <div class="flex mt-3 gap-3 text-xl">
-            {{ range .Site.Data.home.top.link }}
-                <a href="{{.url}}"><i class="{{ .icon}} text-black"></i></a>
+            {{ range .Data.home.top.link }}
+                <a href="{{.url}}"><i class="{{ .icon}} text-white"></i></a>
             {{end}}
         </div>
 
